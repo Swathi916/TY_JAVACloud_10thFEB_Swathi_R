@@ -1,0 +1,25 @@
+package com.tyss.capgemini.threads;
+
+
+public class Mainclass extends Thread{
+	public static void main(String[] args) {
+		System.out.println("..........start............");
+		class1 c1=new class1();
+		Class2 c2=new Class2();
+		c1.start();
+		try {
+			c1.join();
+		} catch (Exception e) {
+			e. printStackTrace();
+		}
+		c2.start();
+		System.out.println("........end..........");
+		
+		
+			
+		
+		
+		
+	}
+
+}

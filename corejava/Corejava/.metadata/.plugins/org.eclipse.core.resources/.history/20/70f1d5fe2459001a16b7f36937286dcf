@@ -1,0 +1,11 @@
+package com.tyss.capgemini.variables;
+
+public class Operators {
+	public static void main(String[] args) {
+		float f= 2001;
+		System.out.println(f);
+		int r=20000000000000;
+		System.out.println(r);
+	}
+
+}

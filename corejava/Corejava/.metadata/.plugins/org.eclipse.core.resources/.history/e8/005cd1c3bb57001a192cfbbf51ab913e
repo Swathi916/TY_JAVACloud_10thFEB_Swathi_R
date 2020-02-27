@@ -1,0 +1,19 @@
+package com.tyss.capgemini.threads;
+
+public class PrintingValues {
+	public static void Printvalues1()
+	{
+		for(int i = 1; i < 10;i++)
+			System.out.println("printing values: " + i);
+	}
+	public static void Printvalues2()
+	{
+		for(int i = 1; i < 10;i++)
+			System.out.println("printing values: " + i);
+	}
+	public static void main(String[] args) {
+		Printvalues1();
+		Printvalues2();
+	}
+
+}

@@ -1,0 +1,35 @@
+package Variables;
+
+// @supressWarning is used to supress warning messages
+
+public class VariablesExample
+{
+   static byte sGByte;
+   static short sGShort;
+   static int sGInt;
+   static long sGLong;
+   static float sGFloat;
+   static double sGDouble;
+   static char sGChar;
+   static boolean sGBool;
+   public static void main(String[] args) {
+	 byte ibyte;
+	 short ishort;
+	 int   iint;
+	 long ilong;
+	 float ifloat;
+	 double idouble;
+	 char ich;
+	 boolean iboolean;
+     
+	   System.out.println(sGByte);
+	   System.out.println(sGShort);
+	   System.out.println(sGInt);
+	   System.out.println(sGLong);
+	   System.out.println(sGFloat);
+	   System.out.println(sGDouble);
+	   System.out.println(sGChar);
+	   System.out.println(sGBool);
+}
+   
+}

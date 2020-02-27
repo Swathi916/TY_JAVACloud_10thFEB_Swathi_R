@@ -1,0 +1,11 @@
+package com.tyss.capgemini.threads;
+
+public class PrintingApplication {
+	public void printingDocuments(String document, int numofCopies) {
+		for(int i=1;i<=numofCopies;i++)
+		{
+		System.out.println(">>Printing" + document+ "#" +i );
+		}
+	}
+
+}

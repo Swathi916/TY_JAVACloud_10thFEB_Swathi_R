@@ -1,0 +1,18 @@
+package exception;
+
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.Properties;
+
+public class ThrowAndThrows 
+{
+
+	public static void main(String[] args) throws IOException
+	{
+		//System.out.println(10/0);
+		new Properties().load(new FileReader("application.properties"));
+
+	}
+
+}

@@ -1,0 +1,23 @@
+package Interface;
+
+public class FunctionalInterfaceLambdaExample 
+{
+      static String string="hello";
+      static FunctionalInterfaceExample fi=()->{
+    	  System.out.println(string);
+    	  System.out.println("hello world");
+      };
+	
+		static FunctionalInterfaceExample2 ffe=(i,j)->i+j;
+		{
+			System.out.println("lambda...");
+		}
+		public static void main(String[] args) {
+			ffe.showMessage();
+			ffe.printMessage();
+			FunctionalInterfaceExample.displayMessage();
+			int i=FunctionalInterfaceExample2.add(4,5);
+		}
+	}
+      
+

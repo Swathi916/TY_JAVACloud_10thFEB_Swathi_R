@@ -1,0 +1,15 @@
+package com.tyss.capgemini.collections;
+
+import java.util.ArrayList;
+
+public class ArrayListExample {
+	public static void main(String[] args) {
+		ArrayList<Integer> arrayList = new ArrayList<Integer>();
+		
+		arrayList.add(12);
+		arrayList.add(5,6);
+		System.out.println(arrayList.size());
+		
+	}
+
+}

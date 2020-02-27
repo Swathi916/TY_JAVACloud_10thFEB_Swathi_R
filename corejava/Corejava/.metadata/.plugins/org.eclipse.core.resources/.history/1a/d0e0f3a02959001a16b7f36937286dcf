@@ -1,0 +1,8 @@
+package com.tyss.capgemini.collections;
+
+public class CustomListExecutor {
+	public static void main(String[] args) {
+		CustomList customList=new CustomList(4);
+	}
+
+}

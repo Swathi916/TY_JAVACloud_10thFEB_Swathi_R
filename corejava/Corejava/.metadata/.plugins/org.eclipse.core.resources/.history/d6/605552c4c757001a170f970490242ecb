@@ -1,0 +1,24 @@
+package com.tyss.capgemini.threads;
+
+public class PrintingValues {
+	public static void main(String[] args) {
+		System.out.println("//////////////////////Application Started/////////////");
+		
+		// PrintingMethodClass1.printValues1();
+		// PrintingMethodClass2.printValues2();
+		
+		/** data inconsistency bcs we are not getting consistant output whenever we run the program
+		 * to overcome problem we go for sleep and join method
+		 * 2 ways of creating thread 1.by  implement runnable  2.by extending thread
+		 * */
+
+		new PrintingMethodClass1().start();
+		new Thread( new PrintingMethodClass2()).start();
+		
+		
+		
+		//new PrintingMethodClass2().start();
+		System.out.println("/////////////////////Application ended////////////////");
+		
+	}
+}

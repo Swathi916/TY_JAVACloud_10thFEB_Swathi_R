@@ -1,0 +1,6 @@
+
+vsquid:S2274":Remove this call to "wait" or move it into a "while" loop.(šæøÿÿÿÿ8ıÚí‚ˆ.Hİ	RCRITICALZ
+CODE_SMELL
+ssquid:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8åÀÓ‚ˆ.HÜ	RMAJORZBUG
+wsquid:S2276"CReplace the call to "Thread.sleep(...)" with a call to "wait(...)".(€­íÜüÿÿÿÿ8åÀÓ‚ˆ.Hß	RBLOCKERZBUG
+_squid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8åÀÓ‚ˆ.HŞ	RMINORZVULNERABILITY

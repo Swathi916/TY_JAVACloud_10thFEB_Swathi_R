@@ -1,0 +1,28 @@
+package com.tyss.capgemini.threads;
+
+public class Example {
+	static void abc()
+	{
+		int a;
+	for(a=1; a<=10; a++)
+	{
+		System.out.println(a);
+	}
+	}
+
+}
+class Example1{
+	static void def()
+	{
+		int b;
+		for(b=1;b<=10;b++)
+		{
+			System.out.println(b);
+		}
+	}
+	public static void main(String[] args) {
+		Example.abc();
+		def();
+	}
+	
+}

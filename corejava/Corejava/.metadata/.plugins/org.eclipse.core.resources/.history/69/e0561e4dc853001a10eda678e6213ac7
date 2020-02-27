@@ -1,0 +1,12 @@
+package strings;
+
+public class StringMethodsExample
+{
+	public static void main(String[] args)
+	{
+		String string1="some string";
+		System.out.println("length() of string: " +string1.length());
+		System.out.println("isEmpty() od string"  +string1.isEmpty());
+	}
+}
+

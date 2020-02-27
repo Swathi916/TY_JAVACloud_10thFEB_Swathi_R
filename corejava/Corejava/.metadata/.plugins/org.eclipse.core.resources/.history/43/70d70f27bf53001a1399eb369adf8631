@@ -1,0 +1,19 @@
+package Interface;
+
+public class FunctionalInterface  implements FunctionalInterfaceExample
+{
+	public void showMessage() {
+		System.out.println("overriden implementation of show message");
+		
+	}
+	
+	public static void main(String[] args)
+	{
+		FunctionalInterface fi= new FunctionalInterface();
+		fi.showMessage();
+		fi.printMessage();
+	    FunctionalInterfaceExample.displayMessage();
+	    
+	}
+
+}

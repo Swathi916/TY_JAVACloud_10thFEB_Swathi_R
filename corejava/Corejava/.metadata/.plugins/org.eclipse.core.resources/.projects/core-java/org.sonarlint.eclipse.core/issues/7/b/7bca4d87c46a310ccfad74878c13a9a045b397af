@@ -1,0 +1,8 @@
+
+ssquid:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8“Õ„†ˆ.HÍ	RMAJORZBUG
+rsquid:S2134"@Don't extend "Thread", since the "run" method is not overridden.(…Øœ»ûÿÿÿÿ8™æŒ€ˆ.HÇ	RMAJORZBUG
+_squid:S1148"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8™æŒ€ˆ.HÆ	RMINORZVULNERABILITY
+_squid:S1148"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8“Õ„†ˆ.HÌ	RMINORZVULNERABILITY
+squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(”‚•ï8Äü±†ˆ.H€
+RMAJORZ
+CODE_SMELL

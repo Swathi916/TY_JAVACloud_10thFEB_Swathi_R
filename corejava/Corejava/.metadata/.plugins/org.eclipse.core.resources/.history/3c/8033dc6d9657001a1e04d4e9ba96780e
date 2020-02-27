@@ -1,0 +1,14 @@
+package com.tyss.capgemini.polymorphism;
+
+public class OverloadedMethodCallingClass {
+
+	public static void main(String[] args) {
+		OverloadedMethodClass omc = new OverloadedMethodClass();
+		System.out.println(omc.add(6, 5));
+		System.out.println(omc.add(5, 6, 7));
+		System.out.println(omc.add(55.6, 5));
+		System.out.println(omc.add(55, 4.5));
+
+	}
+
+}

@@ -1,0 +1,21 @@
+package exception;
+
+import java.util.Scanner;
+
+public class CustomExceptionTester2 {
+
+	public static void main(String[] args) throws InvalidNumberCustomException {
+		Scanner scan = new Scanner(System.in);
+		System.out.println("enter the no: ");
+		int no = scan.nextInt();
+
+		scan.close();
+		try {
+			System.out.println(10 / no);
+
+		} catch (Exception e) {
+			throw new InvalidNumberCustomException("any msg");
+		}
+	}
+
+}

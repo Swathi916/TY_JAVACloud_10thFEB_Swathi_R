@@ -1,0 +1,11 @@
+package com.jtyss.capgemini.abstraction;
+
+import com.tyss.capgemini.polymorphism.MethodsInterfaces;
+
+public abstract class AbstractClassExample implements MethodsInterfaces
+{
+	abstract String display();
+
+	abstract String print();
+
+}

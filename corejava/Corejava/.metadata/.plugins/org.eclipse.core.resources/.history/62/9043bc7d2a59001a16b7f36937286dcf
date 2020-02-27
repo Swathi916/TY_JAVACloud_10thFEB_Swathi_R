@@ -1,0 +1,30 @@
+package com.tyss.capgemini.collections;
+
+public class CustomList {
+	
+	String[] list;
+	int pointer=0;
+	public CustomList()
+	{
+		list= new String[10];
+	}
+	public CustomList(int size)
+	{
+		list = new String[size];
+	}
+	public void add(String element) {
+		list[pointer]= element;
+		pointer++;
+	}
+	public String get(int index )
+	{
+		return list[index];
+	}
+	public int size()
+	{
+		int size=0;
+		if(list.equals(null))
+		return size;
+	}
+
+}

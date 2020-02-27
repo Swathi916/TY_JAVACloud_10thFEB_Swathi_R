@@ -1,0 +1,47 @@
+package com.tyss.capgemini.threads;
+
+public class PrintingValues {
+	public static void main(String[] args) {
+		System.out.println("//////////////////////Application Started/////////////");
+		PrintingMethodClass1 p1=new PrintingMethodClass1();
+		
+		try {
+			p1.join(); // used to get output in expected way
+		}
+		catch(InterruptedException e)
+		{
+			e.printStackTrace();
+		}
+		p1.start();
+		Thread t1=new Thread(new PrintingMethodClass2());
+		try {
+			t1.sleep(1500);
+		} catch (InterruptedException e1) {
+			e1.printStackTrace();
+			
+		}
+		try {
+			t1.sleep(1500);
+		} catch (InterruptedException e1) {
+			e1.printStackTrace();
+			
+		}
+		
+		// PrintingMethodClass1.printValues1();
+		// PrintingMethodClass2.printValues2();
+		
+		//	new PrintingMethodClass1().start();
+		//	new Thread( new PrintingMethodClass2()).start();
+		
+		
+		
+      // new PrintingMethodClass2().start();
+		System.out.println("/////////////////////Application ended////////////////");
+		
+	}
+}
+
+/** data inconsistency bcs we are not getting consistant output whenever we run the program
+ * to overcome problem we go for sleep and join method
+ * 2 ways of creating thread 1.by  implement runnable  2.by extending thread
+ * */

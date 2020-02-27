@@ -1,0 +1,19 @@
+package com.tyss.capgemini.threads;
+
+public class Class2 implements Runnable{
+	@Override
+	public void run() {
+		for(int i=21;i<=30;i++)
+		{
+			
+			try {
+				sleep(500);
+			} catch (InterruptedException e) {
+				
+				e.printStackTrace();
+			}
+		System.out.println(i);
+		}
+	}
+
+}

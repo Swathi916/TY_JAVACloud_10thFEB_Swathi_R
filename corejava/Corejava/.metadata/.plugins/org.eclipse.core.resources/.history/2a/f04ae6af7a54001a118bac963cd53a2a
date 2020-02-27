@@ -1,0 +1,29 @@
+package Object;
+
+import Methods.Arith;
+
+public class DifferentPackageMethodsExample extends Arith
+{
+
+	s
+
+	public static void main(String[] args) 
+	{
+		DifferentPackageMethodsExample dp=new DifferentPackageMethodsExample();
+		// to call methods from another package we need to import
+		
+		//with import without extends
+		Arith.add(9,4);
+		
+		//with import and with extends   ...inheritance usage
+		    add(5,8);
+		    System.out.println(dp.toString());
+		    System.out.println(dp.toString());
+		    
+		    System.out.println("add:"+add(5,6));
+		    System.out.println("sub:" + sub(6,5));
+		    
+
+	}
+
+}

@@ -1,0 +1,17 @@
+package com.tyss.capgemini.i_interface;
+
+public interface MethodsInterface 
+{
+	public void displayMessage();
+	public void print();
+    
+	public static void showMessage() 
+	{
+		System.out.println("show static show message of methodinterface");
+		
+	}
+	default void defaultMessage()
+	{
+		System.out.println(" default message from Methods interface");
+	}
+}

@@ -1,0 +1,22 @@
+
+Tsquid:S2438""Argument 1" is a "Thread".(Å£Â‚úÿÿÿÿ8Ìõ¨â‡.Hï	RMAJORZ
+CODE_SMELL
+ssquid:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(‘í†8éòÄÿ‡.Hí	RMAJORZBUG
+isquid:S2209"5Change this instance-reference to a static reference.(Î´³8éòÄÿ‡.Hê	RMAJORZ
+CODE_SMELL
+„squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ñ¥ùšøÿÿÿÿ8Äı»ÿ‡.Hô	RMAJORZ
+CODE_SMELL
+„squid:CommentedOutCodeLine)"<This block of commented-out lines of code should be removed.(•ßº˜ûÿÿÿÿ8’ç®â‡.Hğ	RMAJORZ
+CODE_SMELL
+_squid:S1148"#Use a logger to log this exception.(Âşÿâûÿÿÿÿ8éòÄÿ‡.Hñ	RMINORZVULNERABILITY
+„squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ8Äı»ÿ‡.Hò	RMAJORZ
+CODE_SMELL
+„squid:CommentedOutCodeLine
+"<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ8Äı»ÿ‡.Hó	RMAJORZ
+CODE_SMELL
+„squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ñ¥ùšøÿÿÿÿ8Äı»ÿ‡.Hë	RMAJORZ
+CODE_SMELL
+„squid:CommentedOutCodeLine!"<This block of commented-out lines of code should be removed.(€•„¬ÿÿÿÿÿ8ÖÌÁá‡.Hî	RMAJORZ
+CODE_SMELL
+„squid:CommentedOutCodeLine$"<This block of commented-out lines of code should be removed.(«‚Ñüÿÿÿÿ8ÜÎ„â‡.Hì	RMAJORZ
+CODE_SMELL

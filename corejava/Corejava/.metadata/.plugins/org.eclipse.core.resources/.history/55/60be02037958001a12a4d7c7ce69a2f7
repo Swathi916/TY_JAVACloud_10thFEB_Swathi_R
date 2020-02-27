@@ -1,0 +1,19 @@
+package com.tyss.capgemini.threads;
+
+public class class1 extends Thread {
+	
+@Override
+public void run() {
+	for(int i=10;i<=20;i++)
+	{
+		
+		try {
+			sleep(500);
+		}
+		catch (Exception e) {
+			e.printStackTrace();
+		}
+		System.out.println(i);
+	}
+}
+}

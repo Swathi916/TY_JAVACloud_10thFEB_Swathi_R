@@ -1,0 +1,14 @@
+package Interface;
+
+public class FunctionalInterfaceLambdaExample 
+{
+      static String string="hello";
+      static FunctionalInterfaceExample fi=()->{
+    	  System.out.println(string);
+    	  System.out.println("hello world");
+      };
+	
+		
+	}
+      
+

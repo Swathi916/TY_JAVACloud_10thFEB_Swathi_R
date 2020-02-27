@@ -1,0 +1,9 @@
+package com.tyss.capgemini.threads;
+
+public class ComputerSystem1 {
+	PrintingApplication printingApplication;
+	public ComputerSystem1(PrintingApplication localPrintApplication) //connection from printmachine
+	{
+		this.printingApplication = localPrintApplication;  //connected to system
+	}
+}

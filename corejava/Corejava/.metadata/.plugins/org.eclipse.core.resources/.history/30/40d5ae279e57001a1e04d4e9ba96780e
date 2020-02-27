@@ -1,0 +1,27 @@
+package com.jtyss.capgemini.abstraction;
+
+import com.tyss.capgemini.polymorphism.MethodsInterfaces;
+
+public class TesterClass extends AbstractClassExample
+{
+    
+
+	@Override
+	public String displayMessage() {
+		
+		return "display message method";
+	}
+
+	@Override
+	String display() {
+		
+		return "display overriden";
+	}
+
+	@Override
+	String print() {
+		
+		return "print overriden";
+	}
+
+}

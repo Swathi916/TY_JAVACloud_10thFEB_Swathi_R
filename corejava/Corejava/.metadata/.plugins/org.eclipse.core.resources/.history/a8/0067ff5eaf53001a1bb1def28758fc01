@@ -1,0 +1,17 @@
+package Interface;
+
+public interface FunctionalInterfaceExample2 
+{
+	public int add(int i,int j);
+	
+	public static void print()
+	{
+		System.out.println(" static print message of functional interface example");
+		
+	}
+	default void display()
+	{
+		System.out.println("default display message method of functional interface example");
+	}
+
+}

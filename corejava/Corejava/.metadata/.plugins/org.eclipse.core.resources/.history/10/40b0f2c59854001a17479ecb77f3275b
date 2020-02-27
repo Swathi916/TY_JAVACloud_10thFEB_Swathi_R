@@ -1,0 +1,39 @@
+package Methods;
+
+public class Methodoverloading 
+{
+	public static void displayMessage()
+	{
+		System.out.println("Helllo World");
+	}
+	private static String displayMessage(String s)
+	{
+		//System.out.println("Method over loading with one argument");
+		String s1="hello";
+		return s1;
+	}
+	public void displayMessage( String s, int i)
+	{
+		System.out.println("Method overloading with 2 arguments");
+	}
+	public void displayMessage(int i,String s)
+	{
+		System.out.println("Helllo World");
+	}
+    //static methods can be called using by classname and without class name
+	// for nonstatic class name is mandatory
+	public static void main(String[] args)
+	{
+		Methodoverloading m1=new Methodoverloading();
+	    displayMessage();
+	    displayMessage("hello");
+	  // or
+	    m1.displayMessage("hi");
+	    m1.displayMessage(10, "hello");
+	    
+	    m1.displayMessage("hello", 10);
+	    
+
+	}
+
+}

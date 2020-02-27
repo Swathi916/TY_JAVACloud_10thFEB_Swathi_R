@@ -1,0 +1,29 @@
+package com.tyss.capgemini.collections;
+
+public class ArraysClassExample {
+	// arrays class is used for manipulation of static methods
+	public static void main(String[] args) {
+		
+	int[] arr={25,9,11,02,112,63};
+	for(int i=1; i<arr.length; i++)
+	{
+		for(int j=1; j<arr.length-i;j++)
+		{
+			if(arr[j-1]>arr[j])
+			{
+				temp=arr[j-1];
+				arr[j-1]=arr[j];
+				arr[j]=temp;
+			}
+		}
+		for(int k=0;k<arr.lenth;k++)
+		{
+			System.out.println(arr[k]);
+		}
+	}
+	}
+	
+	
+	
+
+}

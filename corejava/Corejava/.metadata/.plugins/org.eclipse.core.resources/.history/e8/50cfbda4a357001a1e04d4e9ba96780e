@@ -1,0 +1,21 @@
+package com.tyss.capgemini.encapsulation;
+
+public class UserTesterClass {
+
+	public static void main(String[] args) {
+		// using constructor
+		User user1=new User("Mike","qwerty",2020001);
+		System.out.println(user1);
+		
+		User user2=new User();
+		user2.setUsername("toby");
+		user2.setUserid(1200);
+		
+		
+		// using to string
+	    System.out.println("username: "+ user1.getUsername());
+		System.out.println("userid: "+ user1.getUserid());
+
+	}
+
+}

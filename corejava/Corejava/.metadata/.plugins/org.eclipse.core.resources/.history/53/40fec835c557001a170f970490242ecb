@@ -1,0 +1,12 @@
+package com.tyss.capgemini.threads;
+
+public class PrintingValues {
+	public static void main(String[] args) {
+    System.out.println("//////////////////////Application Started/////////////");
+	PrintingMethodClass1.printValues1();
+	PrintingMethodClass2.printValues2();
+	System.out.println("/////////////////////Application ended////////////////");
+	}
+}
+
+

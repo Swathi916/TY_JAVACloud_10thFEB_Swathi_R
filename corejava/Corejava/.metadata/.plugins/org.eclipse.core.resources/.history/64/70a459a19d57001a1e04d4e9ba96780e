@@ -1,0 +1,23 @@
+package com.jtyss.capgemini.abstraction;
+
+import com.tyss.capgemini.polymorphism.MethodsInterfaces;
+/**
+ * not mandatory to implement interface class in abstract class
+ * but when abstract class must be overriden in subclass
+ */
+public abstract class AbstractClassExample implements MethodsInterfaces
+{
+	AbstractClassExample(int a)
+	{
+		int b=a;
+	}
+	abstract String display();
+
+	abstract String print();
+	
+	public String printMessage() {
+		return " Implementation of interface in abstract class";
+		
+	}
+
+}

@@ -1,0 +1,21 @@
+package com.tyss.capgemini.polymorphism;
+
+public class OverridingInterfaceCaller {
+	public static void main(String[] args) {
+		
+		
+//		MethodOverridingClass1 mo1 = new MethodOverridingClass1();
+//		MethodOverridingClass2 mo2 = new MethodOverridingClass2();
+		
+		MethodsInterfaces mo1=new MethodOverridingClass1();
+		MethodsInterfaces mo2= new MethodOverridingClass2();
+		
+		System.out.println(mo1.displayMessage());
+		System.out.println(mo1.printMessage());
+		
+		System.out.println("..............*************...............");
+		
+		System.out.println(mo2.displayMessage());
+		System.out.println(mo2.printMessage());
+	}
+}

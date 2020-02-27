@@ -1,0 +1,18 @@
+package Interface;
+
+public class MethodsinterfaceJ8Impl implements MethodsInterface
+{
+
+	@Override
+	public void displayMessage() {
+		System.out.println(" overriden display of method interface");
+		
+	}
+
+	@Override
+	public void print() {
+		System.out.println("overriden implementation of print of method interface");
+		
+	}
+
+}

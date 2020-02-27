@@ -1,0 +1,28 @@
+package Interface;
+
+import Methods.Arith;
+
+public class SomeArithmeticOperations extends Arith
+{
+     public SomeArithmeticOperations()
+     {
+    	 super(5);//bcs constructor in arith is parameterised
+    	// super();
+	        
+    	 System.out.println(" present class constructor");
+    	 
+	}
+	public static void main(String[] args)
+	{
+		SomeArithmeticOperations sao=new SomeArithmeticOperations();
+		//super keyword gets invokes when u call constructor in this it is default constructor
+		
+		System.out.println("add method of superclass:"+add(5,6));
+		System.out.println("sub method of superclass:"+sub(18, 11));
+		System.out.println("div method of superclass:"+div(10, 3));
+	
+
+	}
+
+}
+

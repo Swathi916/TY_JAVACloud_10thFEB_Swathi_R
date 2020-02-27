@@ -1,0 +1,24 @@
+package exception;
+
+public class ExceptionExample 
+{
+	public static void main(String[] args) {
+		String string="";
+		//unchecked exception or run time exception
+		// only constructors are present in exception class
+		//throwable contains methods
+		// printstacktrace is good for prog but in industry it is getstacktrace
+		try {
+		System.out.println(string.charAt(3));
+		}
+		catch(StringIndexOutOfBoundsException e)
+		{
+			//System.out.println("excetion handled"); or
+			System.err.println("charAt(int index)should not be called on nulll string");
+			//e.getCause();
+			System.out.println(e.getClass());
+			 
+		}
+	}
+
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete element from project &apos;Corejava&apos;&#x0D;&#x0A;- Original project: &apos;Corejava&apos;&#x0D;&#x0A;- Original element: &apos;Corejava/src/com.tyss.capgemini.operators&apos;" description="Delete element" element1="/src&lt;com.tyss.capgemini.operators" elements="1" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1582007240301" subPackages="false" version="1.0"/>
+</session>

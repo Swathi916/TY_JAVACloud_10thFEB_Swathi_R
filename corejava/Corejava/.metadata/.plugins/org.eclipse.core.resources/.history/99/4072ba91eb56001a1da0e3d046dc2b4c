@@ -1,0 +1,21 @@
+package exception;
+
+import java.util.Scanner;
+
+public class TryWithResources {
+
+	public static void main(String[] args) 
+	{
+		Scanner scan=new Scanner(System.in);
+		try {
+			int i=10;
+			int j=scan.nextInt();
+			System.out.println(i/j);
+			}
+		catch (Exception e) {
+			System.err.println("should not divide a number by zero");
+	       System.err.println(e.getMessage());
+		}
+	}
+
+}

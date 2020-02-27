@@ -1,0 +1,51 @@
+package com.jtyss.capgemini.abstraction;
+
+import com.tyss.capgemini.polymorphism.MethodsInterfaces;
+
+public class TesterClass extends AbstractClassExample
+{
+    TesterClass(int a) {
+		super(a);
+		// TODO Auto-generated constructor stub
+	}
+
+	AbstractClassExample a1=new AbstractClassExample(5) {
+		
+		@Override
+		public String displayMessage() {
+			// TODO Auto-generated method stub
+			return null;
+		}
+		
+		@Override
+		String print() {
+			// TODO Auto-generated method stub
+			return null;
+		}
+		
+		@Override
+		String display() {
+			// TODO Auto-generated method stub
+			return null;
+		}
+	};
+
+	@Override
+	public String displayMessage() {
+		
+		return null;
+	}
+
+	@Override
+	String display() {
+		
+		return null;
+	}
+
+	@Override
+	String print() {
+		
+		return null;
+	}
+
+}

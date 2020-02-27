@@ -1,0 +1,19 @@
+package com.tyss.capgemini.threads;
+
+public class ComputerSystem2 extends Thread{
+	PrintingApplication printingApplication;
+	public ComputerSystem2(PrintingApplication localPrintApplication) //connection from printmachine
+	{
+		this.printingApplication = localPrintApplication;  //connected to system
+	}
+	public void run() {
+		try {
+			sleep(1500);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		System.err.println(">>>printing from computersystem 2");
+		printingApplication.printingDocuments("AnyDoc.pdf", 10);
+	}
+}

@@ -1,0 +1,8 @@
+package com.jtyss.capgemini.abstraction;
+
+import com.tyss.capgemini.polymorphism.MethodsInterfaces;
+
+public class TesterClass implements MethodsInterfaces
+{
+
+}

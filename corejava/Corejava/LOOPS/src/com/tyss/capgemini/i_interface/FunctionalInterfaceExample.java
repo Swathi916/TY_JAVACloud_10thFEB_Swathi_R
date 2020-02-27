@@ -1,0 +1,17 @@
+package com.tyss.capgemini.i_interface;
+
+public interface FunctionalInterfaceExample
+{
+        public void showMessage();
+        
+        
+        public static void displayMessage()
+        {
+        	System.out.println(" display message from functional interface example");
+        }
+        default void printMessage()
+        {
+        	System.out.println(" display message from functional interface example");
+
+        }
+}

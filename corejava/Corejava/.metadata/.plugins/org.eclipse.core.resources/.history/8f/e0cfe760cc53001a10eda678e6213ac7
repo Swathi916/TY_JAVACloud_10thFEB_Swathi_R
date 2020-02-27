@@ -1,0 +1,31 @@
+package strings;
+
+public class StringMethodsExample
+{
+	public static void main(String[] args)
+	{
+		String string1="some string";
+		String string2="";
+		String string3="sOME sTRING";
+		
+		System.out.println("length() of string: " +string1.length());//to display length of the string
+		
+		
+		System.out.println("isEmpty() of string: "  +string1.isEmpty());//to check if the string is empty or not
+		System.out.println(("isEmpty() of string: " +string2.isEmpty()));
+		
+		System.out.println("charaAt() method of string: "  +string1.charAt(7));// to fetch particular character
+	    //System.out.println(string2.charAt(7));//exception
+		
+		System.out.println("equals() of string is: "+string1.equals(string3));//to check if 2 strings are same
+		System.out.println("equalsIgnoreCase() of string is: "+string1.equalsIgnoreCase(string3));//will compare only the character irrespective of upper or lower case
+		
+		System.out.println("string concat() of string: "+string1.concat(" concatenated string"));//used to concatenate one string with another string or with any other statements
+         String string4=string1.concat(" concatenated string ");
+         System.out.println(string4);
+         
+         string1.replace('s', 's');
+	}
+	
+}
+

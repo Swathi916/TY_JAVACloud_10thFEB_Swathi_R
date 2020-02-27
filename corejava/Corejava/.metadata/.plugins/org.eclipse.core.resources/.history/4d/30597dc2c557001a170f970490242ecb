@@ -1,0 +1,19 @@
+package com.tyss.capgemini.threads;
+
+public class PrintingMethodClass1 extends Thread{
+
+	@Override
+	public void run() {
+
+		for(int i = 1; i < 10;i++)
+			System.out.println("printing values: " + i);
+	}*/
+	}
+	
+	
+	/*public static void printValues1()
+	{
+		for(int i = 1; i < 10;i++)
+			System.out.println("printing values: " + i);
+	}*/
+}

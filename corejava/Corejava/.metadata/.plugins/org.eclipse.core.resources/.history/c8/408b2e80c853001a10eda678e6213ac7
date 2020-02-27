@@ -1,0 +1,20 @@
+package strings;
+
+public class StringMethodsExample
+{
+	public static void main(String[] args)
+	{
+		String string1="some string";
+		String string2="";
+		System.out.println("length() of string: " +string1.length());//to display length of the string
+		
+		
+		System.out.println("isEmpty() of string"  +string1.isEmpty());//to check if the string is empty or not
+		System.out.println(("isEmpty() of string" +string2.isEmpty()));
+		
+		string1.charAt(7);
+		string2.charAt(7);
+	}
+	
+}
+

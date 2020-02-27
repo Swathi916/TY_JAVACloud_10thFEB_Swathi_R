@@ -1,0 +1,14 @@
+package Interface;
+
+public class FunctionalInterfaceExample 
+{
+	static String string="hello";
+     static FunctionalInterfaceEx fie=()->System.out.println(string);
+     public static void main(String[] args)
+     {
+    	 fie.displayMessage();
+    	 fie.showMessage();
+    	 FunctionalInterfaceEx.printMessage();
+		
+	}
+}

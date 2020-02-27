@@ -1,0 +1,20 @@
+package com.tyss.capgemini.exception;
+
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.Properties;
+
+public class ThrowAndThrows 
+{
+    //without try catch
+	// here we dont handle exception we throw exception to compiler
+	public static void main(String[] args) throws IOException,FileNotFoundException
+	{
+		System.out.println(10/0);
+		new Properties().load(new FileReader("application.properties"));
+		System.out.println("wont get executed");// bcs we have not handled exception we are just telling compiler that exception may occur
+
+	}
+
+}

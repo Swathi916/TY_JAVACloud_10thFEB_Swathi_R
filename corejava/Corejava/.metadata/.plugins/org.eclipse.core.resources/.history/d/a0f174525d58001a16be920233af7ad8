@@ -1,0 +1,9 @@
+package com.tyss.capgemini.threads;
+
+public class PrintingMachine {
+	public static void main(String[] args) {
+		System.out.println("*****Printer Machine Started****");
+		System.out.println("*****Printer Machine Stopped****");
+	}
+
+}

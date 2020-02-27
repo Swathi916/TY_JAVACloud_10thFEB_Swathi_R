@@ -1,0 +1,11 @@
+package com.tyss.capgemini.threads;
+
+public class PrintingValues {
+	public static void main(String[] args) {
+		
+	PrintingMethodClass1.Printvalues1();
+	PrintingMethodClass2().printval
+	}
+}
+
+

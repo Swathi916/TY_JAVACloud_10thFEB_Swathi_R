@@ -1,0 +1,23 @@
+package exception;
+
+public class TryCatchFinally
+{
+	public static void main(String[] args) {
+   try
+   {
+	   System.out.println(10/0);
+   }
+   catch(Exception e) {
+	   System.out.println("Exception caught in the codee");
+	  
+   }
+  
+   
+   finally {
+	System.out.println("satements will get executed wheather the exception is addresssed or not");
+	   
+   }
+   System.out.println("end....");
+}
+}
+

@@ -1,0 +1,11 @@
+package com.tyss.capgemini.encapsulation;
+
+public class UserTesterClass {
+
+	public static void main(String[] args) {
+		User user=new User("Mike","qwerty",2020001);
+		System.out.println(user1);
+
+	}
+
+}

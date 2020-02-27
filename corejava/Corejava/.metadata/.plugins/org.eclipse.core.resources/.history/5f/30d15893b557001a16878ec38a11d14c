@@ -1,0 +1,5 @@
+package com.tyss.capgemini.exception;
+
+public class exception {
+
+}

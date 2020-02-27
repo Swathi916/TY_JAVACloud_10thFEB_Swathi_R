@@ -1,0 +1,4 @@
+
+Ë%squid:RedundantThrowsDeclarationCheck"xRemove the declaration of thrown exception 'java.io.FileNotFoundException' which is a subclass of 'java.io.IOException'.(ªâùÑþÿÿÿÿ8¸íÁ±‡.HûRMINORZ
+CODE_SMELL
+xsquid:S3518"CMake sure this expression can't be zero before doing this division.(šÇé¬ÿÿÿÿÿ8šïÓ±‡.HüRCRITICALZBUG

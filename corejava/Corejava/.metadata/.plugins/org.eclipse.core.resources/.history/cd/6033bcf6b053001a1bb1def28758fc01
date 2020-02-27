@@ -1,0 +1,18 @@
+package Interface;
+
+@FunctionalInterface
+public interface FunctionalInterfaceEx
+{
+	public void showMessage();
+	public static void printMessage()
+	{
+		System.out.println(" static print message of functional interface example");
+		
+	}
+	default void displayMessage()
+	{
+		System.out.println("default display message method of functional interface example");
+	}
+}
+	
+

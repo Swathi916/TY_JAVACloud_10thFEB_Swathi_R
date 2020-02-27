@@ -1,0 +1,19 @@
+package com.tyss.capgemini.collections;
+
+import java.util.Arrays;
+
+public class ArraysClassExample {
+	// arrays class is used for manipulation of static methods
+	public static void main(String[] args) {
+
+		int[] arr = { 25, 9, 11, 02, 112, 63,75};
+		int[] arr1= {20,30}
+		Arrays.parallelSort(arr);
+		for (int k = 0; k < arr.length; k++) {
+			System.out.println(arr[k]);
+	}
+
+			
+	}
+
+}

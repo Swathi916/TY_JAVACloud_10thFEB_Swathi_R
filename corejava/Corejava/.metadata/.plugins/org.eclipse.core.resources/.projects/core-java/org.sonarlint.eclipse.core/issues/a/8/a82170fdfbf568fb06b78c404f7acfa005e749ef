@@ -1,0 +1,26 @@
+
+vsquid:S1192"FDefine a constant instead of duplicating this literal "hello" 3 times.(ÑÄ©åHÔRCRITICALZ
+CODE_SMELL
+_squid:S1172
+"-Remove this unused method parameter "string".(Ù¯Ñ€ýÿÿÿÿHÕRMAJORZ
+CODE_SMELL
+Ssquid:S1172"&Remove these unused method parameters.(ÂÑÿÅHÖRMAJORZ
+CODE_SMELL
+Ssquid:S1172"&Remove these unused method parameters.(µ‹ŸŸH×RMAJORZ
+CODE_SMELL
+csquid:S1854"6Remove this useless assignment to local variable "e4".(ÜÚðùHØRMAJORZ
+CODE_SMELL
+hsquid:S1854"6Remove this useless assignment to local variable "e3".(—–¹ØûÿÿÿÿHÙRMAJORZ
+CODE_SMELL
+csquid:S1854"6Remove this useless assignment to local variable "e2".(ÑÄ©åHÚRMAJORZ
+CODE_SMELL
+csquid:S1854"6Remove this useless assignment to local variable "e1".(’Ã¸ÑHÛRMAJORZ
+CODE_SMELL
+Tsquid:S1481"'Remove this unused "e1" local variable.(’Ã¸ÑHÜRMINORZ
+CODE_SMELL
+Tsquid:S1481"'Remove this unused "e2" local variable.(ÑÄ©åHÝRMINORZ
+CODE_SMELL
+Ysquid:S1481"'Remove this unused "e3" local variable.(—–¹ØûÿÿÿÿHÞRMINORZ
+CODE_SMELL
+Tsquid:S1481"'Remove this unused "e4" local variable.(ÜÚðùHßRMINORZ
+CODE_SMELL

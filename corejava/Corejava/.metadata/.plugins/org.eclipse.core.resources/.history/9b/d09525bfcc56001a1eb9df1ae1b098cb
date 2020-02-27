@@ -1,0 +1,21 @@
+package exception;
+
+public class ExceptionExample 
+{
+	public static void main(String[] args) {
+		String string="";
+		//unchecked exception or run time exception
+		// only constructors are present in exception class
+		//throwable contains methods
+		// printstacktrace is good for prog but in industry it is getstacktrace
+		try {
+		System.out.println(string.charAt(3));
+		}
+		catch(Exception e)
+		{
+			e.printStackTrace();
+			
+		}
+	}
+
+}

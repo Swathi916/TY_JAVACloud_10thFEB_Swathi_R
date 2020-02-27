@@ -1,0 +1,22 @@
+package com.tyss.capgemini.collections;
+
+public class CustomListExecutor {
+	public static void main(String[] args) {
+		CustomList customList=new CustomList(4);
+		customList.add("1");
+		customList.add("12");
+		customList.add("3");
+		customList.add("1");
+		customList.add("5");
+		
+		System.out.println(customList.size());
+		for(int i = 0; i < customList.size();i++)
+		{
+			System.out.println("Element at "+ i + "index: " + customList.get(i));
+		}
+		System.out.println("******************************");
+		System.out.println(customList.contains("12"));
+		
+	}
+
+}

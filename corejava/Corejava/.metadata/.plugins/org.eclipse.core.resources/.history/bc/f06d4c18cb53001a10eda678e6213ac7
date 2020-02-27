@@ -1,0 +1,22 @@
+package strings;
+
+public class StringMethodsExample
+{
+	public static void main(String[] args)
+	{
+		String string1="some string";
+		String string2="";
+		String string3="sOME sTRING"
+		System.out.println("length() of string: " +string1.length());//to display length of the string
+		
+		
+		System.out.println("isEmpty() of string: "  +string1.isEmpty());//to check if the string is empty or not
+		System.out.println(("isEmpty() of string: " +string2.isEmpty()));
+		
+		System.out.println("charaAt() method of string: "
+				+ "" +string1.charAt(7));// to fetch particular character
+	    //System.out.println(string2.charAt(7));//exception
+	}
+	
+}
+

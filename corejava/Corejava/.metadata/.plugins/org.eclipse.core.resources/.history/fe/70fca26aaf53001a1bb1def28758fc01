@@ -1,0 +1,25 @@
+package Interface;
+
+public class FunctionalInterfaceImpl implements FunctionalInterfaceEx, FunctionalInterfaceExample2
+{
+   @Override
+	public void showMessage() {
+	System.out.println("showmessage method of functionalinterfaceimpl class");
+		
+	}
+   @Override
+   public int add(int i, int j) {
+   	
+   	     return i+j;
+   }
+
+   
+   public static void main(String[] args)
+   {
+	FunctionalInterfaceImpl fi=new FunctionalInterfaceImpl();
+	fi.displayMessage();
+	fi.showMessage();
+   }
+
+
+}

@@ -1,0 +1,18 @@
+package com.tyss.capgemini.exception;
+
+public class Vote
+{
+	int age=15 ;
+	if( age>=18)
+	{
+		System.out.println("eligible to vote");
+	}
+	public static void main(String[] args) {
+		
+	}
+	else
+	{
+		throw
+	}
+
+}

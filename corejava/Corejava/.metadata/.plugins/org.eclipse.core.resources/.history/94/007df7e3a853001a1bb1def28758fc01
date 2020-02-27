@@ -1,0 +1,8 @@
+package Interface;
+
+@FunctionalInterface
+public interface FunctionalInterfaceEx
+{
+	public void showMessage();
+}
+

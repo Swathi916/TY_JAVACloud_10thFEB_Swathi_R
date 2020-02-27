@@ -1,0 +1,20 @@
+package strings;
+
+public class StringBufferExample {
+
+	public static void main(String[] args)
+	{
+	   //StringBuffer sb="some string";  not possible
+		String string="some string";
+		StringBuffer sb=new StringBuffer("some string buffer");
+		StringBuffer sb1= new StringBuffer(string);//converting from string to string buffer
+		System.out.println(sb1);
+
+		System.out.println(sb1.getClass());
+	     sb1.append("buffer");
+	     System.out.println(sb1);
+
+	}
+
+}
+

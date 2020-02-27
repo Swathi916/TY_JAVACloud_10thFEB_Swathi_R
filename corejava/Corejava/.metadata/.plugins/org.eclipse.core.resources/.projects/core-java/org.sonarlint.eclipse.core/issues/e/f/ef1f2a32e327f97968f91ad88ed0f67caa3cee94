@@ -1,0 +1,8 @@
+
+„squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ÒÌâ–øÿÿÿÿ8é—¾á‡.Há	RMAJORZ
+CODE_SMELL
+ssquid:S2142
+"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8É«ôá‡.Hâ	RMAJORZBUG
+^squid:S00108
+")Either remove or fill this block of code.(ä ¹€8³º³â‡.Hã	RMAJORZ
+CODE_SMELL

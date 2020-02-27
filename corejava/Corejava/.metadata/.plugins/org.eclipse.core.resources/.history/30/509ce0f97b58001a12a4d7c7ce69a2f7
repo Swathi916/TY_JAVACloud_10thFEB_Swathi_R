@@ -1,0 +1,17 @@
+package com.tyss.capgemini.exception;
+
+public class Example1Main {
+	
+public static void main(String[] args) {
+	Example e1=new Example();
+	try
+	{
+		e1.vote();
+	}
+	catch (Exception e) {
+		
+		
+	}
+	
+}
+}

@@ -1,0 +1,29 @@
+package com.tyss.capgemini.exception;
+
+import javax.sound.midi.SysexMessage;
+
+public class TryCatchFinally {
+	public static void main(String[] args) {
+		try {
+			System.out.println(10 / 0);
+			// System.exit(0);// wont get terminated since it wont come back to this line
+		}
+		
+		
+	     catch(Exception e ) { 
+	    	 System.out.println("Exception caught in the codee");
+	    	 System.exit(0);// jvm will only get terminated so finally block wont get executed
+	    	 // to avoid finally block from getting executed or to terminate the program anywhere in between we go for system.out
+	        //return;// there is no calling method so control goes back to finally block
+	     }
+		 
+
+		finally {
+			System.out.println("satements will get executed wheather the exception is addresssed or not");
+
+		}
+		// System.out.println("end...."); // it will not get executed if exception is
+		// not handled but will get executed if it is handled
+
+	}
+}

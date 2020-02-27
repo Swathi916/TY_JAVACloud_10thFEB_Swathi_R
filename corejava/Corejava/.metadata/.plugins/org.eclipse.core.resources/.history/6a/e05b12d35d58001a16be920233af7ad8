@@ -1,0 +1,21 @@
+package com.tyss.capgemini.threads;
+
+public class PrintingMachine {
+	public static void main(String[] args) {
+		System.out.println("*****Printer Machine Started****");
+		
+		PrintingApplication printingApplication=new PrintingApplication();
+		
+		ComputerSystem1 computerSystem1=new ComputerSystem1(printingApplication);
+		ComputerSystem2 computerSystem2=new ComputerSystem2(printingApplication);
+		
+		computerSystem1.start();
+		computerSystem1.join();
+		computerSystem2.start();
+		computerSystem2.join();
+		
+		
+		System.out.println("*****Printer Machine Stopped****");
+	}
+
+}
