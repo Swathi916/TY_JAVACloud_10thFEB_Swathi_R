@@ -1,0 +1,34 @@
+Profile :- 
+Application ID      : 601
+Customer Number     : 201
+First Name          : Andrew
+Last Name           : John
+Username            : andrew12
+Password            : Andrew@123
+Email               : andrew12@gmail.com
+Date of Birth       : 28-01-1998
+Mobile Number       : 9480342924
+Loan Account Number : 32147852369
+Loan Type           : Home Extention
+Account Balance     : 30000.23
+Amount To Pay       : 5000.28
+Loan Amount         : 90000.32
+Loan Approval Date  : 20-02-2020
+LoanBean(bankName=HDFC Bank, loanType=Home Purchase loan, emi=752, rateOfInterest=8.00%, loanAmount=500000)
+LoanBean(bankName=SBI Bank, loanType=Loan Type:Home Construction loan, emi=EMI Rs.800/lakh*, rateOfInterest=Rate of Interest 7.00%-8.50%, loanAmount=Loan Amount Rs 5L - Rs 15Cr )
+LoanBean(bankName=SBI Bank, loanType=Loan Type:Home Extention loan, emi=EMI Rs.850/lakh*, rateOfInterest=Rate of Interest 7.5%-8.50%, loanAmount=Loan Amount Rs 50L - Rs 5Cr )
+LoanBean(bankName=HDFC Bank, loanType=Home Loan, emi=4500, rateOfInterest=8.0%, loanAmount=200000)
+LoanBean(bankName=HDFC Bank, loanType=Home Purchase loan, emi=752, rateOfInterest=8.00%, loanAmount=500000)
+LoanBean(bankName=SBI Bank, loanType=Loan Type:Home Construction loan, emi=EMI Rs.800/lakh*, rateOfInterest=Rate of Interest 7.00%-8.50%, loanAmount=Loan Amount Rs 5L - Rs 15Cr )
+LoanBean(bankName=SBI Bank, loanType=Loan Type:Home Extention loan, emi=EMI Rs.850/lakh*, rateOfInterest=Rate of Interest 7.5%-8.50%, loanAmount=Loan Amount Rs 50L - Rs 5Cr )
+====================================================
+||        Welcome to Loan Processing System       ||
+====================================================
+----------------------------------------------------
+-                Choose the User type              -
+----------------------------------------------------
+	1 - Admin          : 
+	2 - Customer       : 
+	3 - Approval Team  : 
+----------------------------------------------------
+Enter your choice    : 
